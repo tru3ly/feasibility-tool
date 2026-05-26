@@ -1,0 +1,9 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body { font-family: "DM Mono", "Courier New", monospace; background: #0f1117; color: #e8eaf0; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #0f1117; }
+::-webkit-scrollbar-thumb { background: #2a3040; border-radius: 3px; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: #4f9cf9 !important; }
+button { cursor: pointer; font-family: inherit; }
+button:hover { opacity: 0.82; }
